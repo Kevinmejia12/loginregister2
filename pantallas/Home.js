@@ -6,6 +6,7 @@ import Contraseña from '../assets/components/Contraseña';
 import BTnLogin from '../assets/components/BTnLogin';
 import { TextInput } from 'react-native-web';
 const Home = ({navigation}) => {
+  console.log("mensaje nuevo")
   const [correo,setCorreo] = useState("")
   const [pass,setPass] = useState("")
   return (
